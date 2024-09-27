@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Price Compare Test">
+    <listeners>
+        <listener class-name="com.automation.listener.AllureListener"></listener>
+    </listeners>
+    <test name="Price Compare Test">
+        <classes>
+            <class name="com.automation.test.PriceCompareTest"></class>
+        </classes>
+    </test>
+</suite>
